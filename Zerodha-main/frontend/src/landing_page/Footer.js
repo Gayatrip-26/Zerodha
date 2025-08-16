@@ -1,185 +1,114 @@
 import React from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa"; // install with: npm install react-icons
 
 function Footer() {
   return (
     <div className="container border-top mt-5 p-5">
       <div className="row ">
         <div className="col">
-          <img src="media/logo.svg" style={{ width: "50%" }}></img>
+          <img src="media/logo.svg" style={{ width: "50%" }} alt="Logo" />
           <p className="mt-3 p-2">
             © 2010 - 2025, Zerodha Broking Ltd. All rights reserved.
           </p>
         </div>
+
+        {/* Company Links */}
         <div className="col ">
           <p>Company </p>
-          <a
-            href=""
-            className="text-muted"
-            style={{ textDecoration: "none", lineHeight: "1.8" }}
-          >
+          <a href="" className="text-muted" style={{ textDecoration: "none", lineHeight: "1.8" }}>
             About
-          </a>{" "}
+          </a>
           <br />
-          <a
-            href=""
-            className="text-muted"
-            style={{ textDecoration: "none", lineHeight: "1.8" }}
-          >
+          <a href="" className="text-muted" style={{ textDecoration: "none", lineHeight: "1.8" }}>
             Products
           </a>
           <br />
-          <a
-            href=""
-            className="text-muted"
-            style={{ textDecoration: "none", lineHeight: "1.8" }}
-          >
+          <a href="" className="text-muted" style={{ textDecoration: "none", lineHeight: "1.8" }}>
             Pricing
           </a>
           <br />
-          <a
-            href=""
-            className="text-muted"
-            style={{ textDecoration: "none", lineHeight: "1.8" }}
-          >
-            Referral programme{" "}
+          <a href="" className="text-muted" style={{ textDecoration: "none", lineHeight: "1.8" }}>
+            Referral programme
           </a>
           <br />
-          <a
-            href=""
-            className="text-muted"
-            style={{ textDecoration: "none", lineHeight: "1.8" }}
-          >
+          <a href="" className="text-muted" style={{ textDecoration: "none", lineHeight: "1.8" }}>
             Careers
           </a>
           <br />
-          <a
-            href=""
-            className="text-muted"
-            style={{ textDecoration: "none", lineHeight: "1.8" }}
-          >
+          <a href="" className="text-muted" style={{ textDecoration: "none", lineHeight: "1.8" }}>
             Zerodha.tech
           </a>
           <br />
-          <a
-            href=""
-            className="text-muted"
-            style={{ textDecoration: "none", lineHeight: "1.8" }}
-          >
+          <a href="" className="text-muted" style={{ textDecoration: "none", lineHeight: "1.8" }}>
             Open source
           </a>
           <br />
-          <a
-            href=""
-            className="text-muted"
-            style={{ textDecoration: "none", lineHeight: "1.8" }}
-          >
+          <a href="" className="text-muted" style={{ textDecoration: "none", lineHeight: "1.8" }}>
             Press & media
           </a>
           <br />
-          <a
-            href=""
-            className="text-muted"
-            style={{ textDecoration: "none", lineHeight: "1.8" }}
-          >
+          <a href="" className="text-muted" style={{ textDecoration: "none", lineHeight: "1.8" }}>
             Zerodha Cares (CSR)
           </a>
           <br />
         </div>
+
+        {/* Support Links */}
         <div className="col">
           <p>Support</p>
-          <a
-            href=""
-            className="text-muted"
-            style={{ textDecoration: "none", lineHeight: "1.8" }}
-          >
+          <a href="" className="text-muted" style={{ textDecoration: "none", lineHeight: "1.8" }}>
             Contact us
-          </a>{" "}
+          </a>
           <br />
-          <a
-            href=""
-            className="text-muted"
-            style={{ textDecoration: "none", lineHeight: "1.8" }}
-          >
+          <a href="" className="text-muted" style={{ textDecoration: "none", lineHeight: "1.8" }}>
             Support portal
           </a>
           <br />
-          <a
-            href=""
-            className="text-muted"
-            style={{ textDecoration: "none", lineHeight: "1.8" }}
-          >
+          <a href="" className="text-muted" style={{ textDecoration: "none", lineHeight: "1.8" }}>
             Z-Connecct blog
           </a>
           <br />
-          <a
-            href=""
-            className="text-muted"
-            style={{ textDecoration: "none", lineHeight: "1.8" }}
-          >
+          <a href="" className="text-muted" style={{ textDecoration: "none", lineHeight: "1.8" }}>
             List of charges
           </a>
           <br />
-          <a
-            href=""
-            className="text-muted"
-            style={{ textDecoration: "none", lineHeight: "1.8" }}
-          >
+          <a href="" className="text-muted" style={{ textDecoration: "none", lineHeight: "1.8" }}>
             Downloads & resources
           </a>
           <br />
-          <a
-            href=""
-            className="text-muted"
-            style={{ textDecoration: "none", lineHeight: "1.8" }}
-          >
+          <a href="" className="text-muted" style={{ textDecoration: "none", lineHeight: "1.8" }}>
             Videos
           </a>
           <br />
-          <a
-            href=""
-            className="text-muted"
-            style={{ textDecoration: "none", lineHeight: "1.8" }}
-          >
+          <a href="" className="text-muted" style={{ textDecoration: "none", lineHeight: "1.8" }}>
             Market overview
           </a>
           <br />
-          <a
-            href=""
-            className="text-muted"
-            style={{ textDecoration: "none", lineHeight: "1.8" }}
-          >
+          <a href="" className="text-muted" style={{ textDecoration: "none", lineHeight: "1.8" }}>
             How to file a complaint?
           </a>
           <br />
-          <a
-            href=""
-            className="text-muted"
-            style={{ textDecoration: "none", lineHeight: "1.8" }}
-          >
+          <a href="" className="text-muted" style={{ textDecoration: "none", lineHeight: "1.8" }}>
             Status of your complaints
           </a>
           <br />
         </div>
+
+        {/* Account Links */}
         <div className="col">
           <p>Account</p>
-          <a
-            href=""
-            className="text-muted"
-            style={{ textDecoration: "none", lineHeight: "1.8" }}
-          >
+          <a href="" className="text-muted" style={{ textDecoration: "none", lineHeight: "1.8" }}>
             Open an account
-          </a>{" "}
+          </a>
           <br />
-          <a
-            href=""
-            className="text-muted"
-            style={{ textDecoration: "none", lineHeight: "1.8" }}
-          >
+          <a href="" className="text-muted" style={{ textDecoration: "none", lineHeight: "1.8" }}>
             Fund transfer
           </a>
           <br />
         </div>
       </div>
+
+      {/* Legal Info */}
       <div
         className="mt-5 fs-8 p-5 text-muted"
         style={{ fontSize: "12px", color: "GrayText" }}
@@ -207,7 +136,7 @@ function Footer() {
         <p>
           Investments in securities market are subject to market risks; read all
           the related documents carefully before investing.{" "}
-        </p>{" "}
+        </p>
         <p>
           Attention investors: 1) Stock brokers can accept securities as margins
           from clients only by way of pledge in the depository system w.e.f
@@ -218,7 +147,6 @@ function Footer() {
           statement issued by NSDL/CDSL every month.{" "}
         </p>
         <p className="mb-5 ">
-          {" "}
           "Prevent unauthorised transactions in your account. Update your mobile
           numbers/email IDs with your stock brokers. Receive information of your
           transactions directly from Exchange on your mobile/email at the end of
@@ -235,6 +163,7 @@ function Footer() {
           claiming to be part of Zerodha and offering such services, please
           create a ticket here.{" "}
         </p>
+
         <div className="row mx-5 mt-5 mb-10">
           <div className="col">NSE </div>
           <div className="col">BSE</div>
@@ -247,7 +176,31 @@ function Footer() {
           <div className="col">Investor charter </div>
         </div>
       </div>
+
+      {/* Custom Name + Social Links */}
+      <div className="text-center mt-4">
+        <p className="mb-2">Developed by <strong>Gayatri Patil</strong></p>
+        <a
+          href="https://github.com/Gayatrip-26/Zerodha"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mx-2"
+          style={{ color: "black", fontSize: "22px" }}
+        >
+          <FaGithub />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/gayatri-patil-524620283/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mx-2"
+          style={{ color: "#0A66C2", fontSize: "22px" }}
+        >
+          <FaLinkedin />
+        </a>
+      </div>
     </div>
   );
 }
+
 export default Footer;
